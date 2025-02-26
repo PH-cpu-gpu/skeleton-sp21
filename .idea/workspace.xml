@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1ca2f72-d31e-466d-8a4f-a688dfad5f6e" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/randomizedtest/TestRandomAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/randomizedtest/TestThreeAddThreeRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/algs4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javalib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javalib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/libraries/javalib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/Exercise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Board$AllTileIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/BoardLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/BoardWidget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/GUISource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/InputSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Side.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestAtLeastOneMoveExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestEmptySpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestMaxTileExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestUpOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/proj0/javalib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/proj0/javalib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise/proj0/javalib/ucb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/BoardLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/BoardWidget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/GUISource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/InputSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/Side.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestAtLeastOneMoveExists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestEmptySpace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestMaxTileExists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestUpOnly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/game2048/Tile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/javalib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/javalib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj0/javalib/ucb.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2tXG2xegYOXYmqjSMEptQ76SHAA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TestRandomAdd.executor": "Run",
+    "JUnit.TestThreeAddThreeRemove.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CS61B/Exercise/inner/Exercise/lib/algs4.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.TimeAList.executor": "Run",
+    "应用程序.TimeSLList.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CS61B\Exercise\inner\Exercise\lib" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e1ca2f72-d31e-466d-8a4f-a688dfad5f6e" name="更改" comment="" />
+      <created>1740490804691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740490804691</updated>
+      <workItem from="1740490806324" duration="780000" />
+      <workItem from="1740491596937" duration="968000" />
+      <workItem from="1740539020909" duration="4267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
