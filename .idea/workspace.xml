@@ -4,66 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ca2f72-d31e-466d-8a4f-a688dfad5f6e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Exercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/randomizedtest/TestRandomAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/randomizedtest/TestThreeAddThreeRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/algs4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javalib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javalib.xml" afterDir="false" />
+    <list default="true" id="31dc516d-f149-4697-9d3c-7501dbfbf615" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/proj1/deque/ArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/deque/ArrayDequeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/deque/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/deque/LinkedListDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/deque/MaxArrayDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/edu.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/libraries/javalib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/Exercise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Board$AllTileIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/BoardLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/BoardWidget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/GUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/GUISource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/InputSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Side.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestAtLeastOneMoveExists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestEmptySpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestMaxTileExists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestUpOnly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/TestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/game2048/Tile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/proj0/javalib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/proj0/javalib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise/proj0/javalib/ucb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/BoardLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/BoardWidget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/GUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/GUISource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/InputSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/Side.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestAtLeastOneMoveExists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestEmptySpace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestMaxTileExists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestUpOnly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/TestUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/game2048/Tile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/javalib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/javalib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj0/javalib/ucb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/randomizedtest/AListNoResizing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/randomizedtest/BuggyAList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/randomizedtest/TestBuggyAList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/randomizedtest/TestThreeAddThreeRemove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/randomizedtest/AListNoResizing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/randomizedtest/BuggyAList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/randomizedtest/TestBuggyAList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/randomizedtest/TestThreeAddThreeRemove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/AList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/SLList$IntNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/SLList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/StopwatchDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/TimeAList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/TimeSLList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/timingtest/AList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/timingtest/SLList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/timingtest/StopwatchDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/timingtest/TimeAList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/timingtest/TimeSLList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/algs4.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -81,42 +54,44 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2tXG2xegYOXYmqjSMEptQ76SHAA" />
+  <component name="ProjectId" id="2tZZw7Y6WUyDRcgrKqkA0cI3VNG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.TestRandomAdd.executor": "Run",
-    "JUnit.TestThreeAddThreeRemove.executor": "Run",
+    "JUnit.ArrayDequeTest.executor": "Run",
+    "JUnit.LinkedListDequeTest.addIsEmptySizeTest.executor": "Run",
+    "JUnit.LinkedListDequeTest.addRemoveTest.executor": "Run",
+    "JUnit.LinkedListDequeTest.emptyNullReturnTest.executor": "Run",
+    "JUnit.LinkedListDequeTest.executor": "Run",
+    "JUnit.LinkedListDequeTest.multipleParamTest.executor": "Run",
+    "JUnit.LinkedListDequeTest.removeEmptyTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/CS61B/Exercise/inner/Exercise/lib/algs4.jar",
+    "last_opened_file_path": "D:/CS61B/Exercise/inner/Exercise/library-sp21/javalib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.TimeAList.executor": "Run",
-    "应用程序.TimeSLList.executor": "Run"
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CS61B\Exercise\inner\Exercise\lib" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="deque" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -130,14 +105,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="e1ca2f72-d31e-466d-8a4f-a688dfad5f6e" name="更改" comment="" />
-      <created>1740490804691</created>
+      <changelist id="31dc516d-f149-4697-9d3c-7501dbfbf615" name="更改" comment="" />
+      <created>1740561793023</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740490804691</updated>
-      <workItem from="1740490806324" duration="780000" />
-      <workItem from="1740491596937" duration="968000" />
-      <workItem from="1740539020909" duration="4267000" />
+      <updated>1740561793023</updated>
+      <workItem from="1740561794161" duration="94000" />
+      <workItem from="1740573779849" duration="3341000" />
+      <workItem from="1740577339318" duration="94000" />
+      <workItem from="1740577527504" duration="99000" />
+      <workItem from="1740577633966" duration="1960000" />
+      <workItem from="1740631123740" duration="1698000" />
+      <workItem from="1740644416374" duration="1796000" />
+      <workItem from="1740664080466" duration="2617000" />
+      <workItem from="1740666733001" duration="14000" />
+      <workItem from="1740669014626" duration="1305000" />
+      <workItem from="1740716139138" duration="1150000" />
+      <workItem from="1740803190358" duration="1788000" />
+      <workItem from="1740838855240" duration="683000" />
     </task>
     <servers />
   </component>
