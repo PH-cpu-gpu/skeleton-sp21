@@ -5,37 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31dc516d-f149-4697-9d3c-7501dbfbf615" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/proj1/deque/ArrayDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj1/deque/ArrayDequeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj1/deque/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj1/deque/LinkedListDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj1/deque/MaxArrayDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/edu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/gh2/GuitarHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/gh2/GuitarMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/randomizedtest/AListNoResizing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/randomizedtest/BuggyAList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/randomizedtest/TestBuggyAList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/randomizedtest/TestThreeAddThreeRemove.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/randomizedtest/AListNoResizing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/randomizedtest/BuggyAList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/randomizedtest/TestBuggyAList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/randomizedtest/TestThreeAddThreeRemove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/AList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/SLList$IntNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/SLList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/StopwatchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/TimeAList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/target/classes/timingtest/TimeSLList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/timingtest/AList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/timingtest/SLList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/timingtest/StopwatchDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/timingtest/TimeAList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/timingtest/TimeSLList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/gh2/GuitarString.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/gh2/GuitarString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/target/classes/gh2/GuitarString.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/target/classes/gh2/GuitarString.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,6 +44,9 @@
     "JUnit.LinkedListDequeTest.executor": "Run",
     "JUnit.LinkedListDequeTest.multipleParamTest.executor": "Run",
     "JUnit.LinkedListDequeTest.removeEmptyTest.executor": "Run",
+    "JUnit.TestGuitarString.executor": "Run",
+    "JUnit.TestGuitarString.testTic.executor": "Run",
+    "JUnit.TestGuitarString.testTicCalculations.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "deletionFromPopupRequiresConfirmation": "false",
@@ -86,7 +63,12 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.GuitarHero.executor": "Run",
+    "应用程序.GuitarHeroLite.executor": "Run",
+    "应用程序.GuitarMusic.executor": "Run",
+    "应用程序.NoteToKey.executor": "Run",
+    "应用程序.TTFAF.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -122,7 +104,8 @@
       <workItem from="1740669014626" duration="1305000" />
       <workItem from="1740716139138" duration="1150000" />
       <workItem from="1740803190358" duration="1788000" />
-      <workItem from="1740838855240" duration="683000" />
+      <workItem from="1740838855240" duration="876000" />
+      <workItem from="1740917665356" duration="3004000" />
     </task>
     <servers />
   </component>
