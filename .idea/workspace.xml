@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31dc516d-f149-4697-9d3c-7501dbfbf615" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/proj1/gh2/GuitarHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj1/gh2/GuitarMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/gh2/GuitarString.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/gh2/GuitarString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/target/classes/gh2/GuitarString.class" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/target/classes/gh2/GuitarString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/deque/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/deque/ArrayDeque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
       <workItem from="1740716139138" duration="1150000" />
       <workItem from="1740803190358" duration="1788000" />
       <workItem from="1740838855240" duration="876000" />
-      <workItem from="1740917665356" duration="3004000" />
+      <workItem from="1740917665356" duration="3457000" />
     </task>
     <servers />
   </component>

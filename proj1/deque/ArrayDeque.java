@@ -3,23 +3,23 @@ package deque;
 import java.util.Iterator;
 
 public class ArrayDeque<T> implements Iterable<T>, Deque<T> {
-    protected final int DEFAULT_CAPACITY = 8;
-    protected final double GROWTH_FACTOR = 2.0;
-    protected final double SHRINK_THRESHOLD = 0.25;
-    protected final double SHRINK_FACTOR = 0.5;
-    protected T[] array;
-    protected int size;
+    private final int DEFAULT_CAPACITY = 8;
+    private final double GROWTH_FACTOR = 2.0;
+    private final double SHRINK_THRESHOLD = 0.25;
+    private final double SHRINK_FACTOR = 0.5;
+    private T[] array;
+    private int size;
     //first指向首元素
-    protected int first;
+    private int first;
     //last指向下一个要插入的位置
-    protected int last;
+    private int last;
     public ArrayDeque() {
         array = (T[]) new Object[DEFAULT_CAPACITY];
         first = 0;
         last = 0;
         size = 0;
     }
-    protected void resize(int newCapacity) {
+    private void resize(int newCapacity) {
         T[] newArray = (T[]) new Object[newCapacity];
         for (int i = 0; i < size; i++) {
             newArray[i] = array[(first + i) % array.length];
