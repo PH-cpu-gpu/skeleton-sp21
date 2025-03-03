@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Objects;
 
-public class ArrayDeque<T> implements Iterable<T> {
+public class ArrayDeque<T> implements Iterable<T>, Deque<T>{
     private static final int INITIAL_CAPACITY = 8; // 初始数组大小
     private static final double SHRINK_THRESHOLD = 0.25; // 缩容阈值
 
