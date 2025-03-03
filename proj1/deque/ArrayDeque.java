@@ -2,9 +2,8 @@ package deque;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Objects;
 
-public class ArrayDeque<T> implements Iterable<T>, Deque<T>{
+public class ArrayDeque<T> implements Iterable<T>, Deque<T> {
     private static final int INITIAL_CAPACITY = 8; // 初始数组大小
     private static final double SHRINK_THRESHOLD = 0.25; // 缩容阈值
 
@@ -36,10 +35,6 @@ public class ArrayDeque<T> implements Iterable<T>, Deque<T>{
         items[rear] = item;
         rear = (rear + 1) % items.length;
         size++;
-    }
-
-    public boolean isEmpty() {
-        return size == 0;
     }
 
     public int size() {
@@ -91,20 +86,18 @@ public class ArrayDeque<T> implements Iterable<T>, Deque<T>{
 
     @Override
     public boolean equals(Object o) {
-        if (o == this) {
+        if (this == o) {
             return true;
         }
-        if (!(o instanceof ArrayDeque<?>)) {
+        if (!(o instanceof Deque)) {
             return false;
         }
-        ArrayDeque<?> other = (ArrayDeque<?>) o;
-        if (this.size != other.size) {
+        Deque<?> other = (Deque<?>) o;
+        if (size() != other.size()) {
             return false;
         }
-        Iterator<T> thisIter = this.iterator();
-        Iterator<?> otherIter = other.iterator();
-        while (thisIter.hasNext() && otherIter.hasNext()) {
-            if (!Objects.equals(thisIter.next(), otherIter.next())) {
+        for (int i = 0; i < size(); i++) {
+            if (!get(i).equals(other.get(i))) {
                 return false;
             }
         }

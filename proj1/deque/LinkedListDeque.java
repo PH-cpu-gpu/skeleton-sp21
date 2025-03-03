@@ -1,7 +1,6 @@
 package deque;
 
 import java.util.Iterator;
-import java.util.Objects;
 
 public class LinkedListDeque<T> implements Iterable<T>, Deque<T> {
     private class LinkedListIterator implements Iterator<T> {
@@ -46,9 +45,6 @@ public class LinkedListDeque<T> implements Iterable<T>, Deque<T> {
         sentinel.prev.next = newNode;
         sentinel.prev = newNode;
         size++;
-    }
-    public boolean isEmpty() {
-        return size == 0;
     }
     public int size() {
         return size;
@@ -106,26 +102,22 @@ public class LinkedListDeque<T> implements Iterable<T>, Deque<T> {
     }
     @Override
     public boolean equals(Object o) {
-        if (o == this) {
+        if (this == o) {
             return true;
         }
-        if (!(o instanceof LinkedListDeque<?>)) { // `instanceof` 不能用 `<?>`
+        if (!(o instanceof Deque)) {
             return false;
         }
-        LinkedListDeque<?> other = (LinkedListDeque<?>) o; // 显式转换
-        if (this.size != other.size) {
+        Deque<?> other = (Deque<?>) o;
+        if (size() != other.size()) {
             return false;
         }
-
-        Iterator<T> thisIter = this.iterator();
-        Iterator<?> otherIter = other.iterator(); // 不能用<T>，因为 `other` 可能是 `LinkedListDeque<U>`
-
-        while (thisIter.hasNext() && otherIter.hasNext()) {
-            if (!Objects.equals(thisIter.next(), otherIter.next())) { // 逐个比较
+        for (int i = 0; i < size(); i++) {
+            if (!get(i).equals(other.get(i))) {
                 return false;
             }
         }
-        return !thisIter.hasNext() && !otherIter.hasNext(); // 确保长度匹配
+        return true;
     }
     public T getRecursive(int index) {
         if (index < 0 || index >= size) {
