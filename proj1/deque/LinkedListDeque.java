@@ -1,20 +1,34 @@
 package deque;
 
 import java.util.Iterator;
+import java.util.Objects;
 
-public class LinkedListDeque<T> implements Iterable<T>, Deque<T> {
+public class LinkedListDeque<T> implements Iterable<T> {
+    private class LinkedListIterator implements Iterator<T> {
+        Node currentNode = sentinel.next;
+        @Override
+        public boolean hasNext() {
+            return currentNode != sentinel;
+        }
+        @Override
+        public T next() {
+            T result = currentNode.item;
+            currentNode = currentNode.next;
+            return result;
+        }
+    }
     private class Node {
-        public Node prev;
-        public T item;
-        public Node next;
+        Node prev;
+        T item;
+        Node next;
         public Node(Node prev, T item, Node next) {
             this.prev = prev;
             this.item = item;
             this.next = next;
         }
     }
-    private Node sentinel;
     private int size;
+    private Node sentinel;
     public LinkedListDeque() {
         sentinel = new Node(null, null, null);
         sentinel.next = sentinel;
@@ -33,105 +47,96 @@ public class LinkedListDeque<T> implements Iterable<T>, Deque<T> {
         sentinel.prev = newNode;
         size++;
     }
+    public boolean isEmpty() {
+        return size == 0;
+    }
     public int size() {
         return size;
     }
     public void printDeque() {
-        Node current = sentinel.next;
-        while (current != sentinel) {
-            System.out.print(current.item + " ");
-            current = current.next;
+        Node currentNode = sentinel.next;
+        while (currentNode != sentinel) {
+            System.out.print(currentNode.item + " ");
+            currentNode = currentNode.next;
         }
         System.out.println();
     }
     public T removeFirst() {
-        if (size == 0) {
+        if (isEmpty()) {
             return null;
         }
-        Node resultNode = sentinel.next;
-        sentinel.next = resultNode.next;
-        resultNode.next.prev = sentinel;
+        Node removedNode = sentinel.next;
+        sentinel.next = removedNode.next;
+        removedNode.next.prev = sentinel;
+        T result = removedNode.item;
+        removedNode.prev = null;
+        removedNode.item = null;
+        removedNode.next = null;
         size--;
-        return resultNode.item;
+        return result;
     }
     public T removeLast() {
-        if (size == 0) {
+        if (isEmpty()) {
             return null;
         }
-        Node resultNode = sentinel.prev;
-        sentinel.prev = resultNode.prev;
-        resultNode.prev.next = sentinel;
+        Node removedNode = sentinel.prev;
+        sentinel.prev = removedNode.prev;
+        removedNode.prev.next = sentinel;
+        T result = removedNode.item;
+        removedNode.prev = null;
+        removedNode.item = null;
+        removedNode.next = null;
         size--;
-        return resultNode.item;
+        return result;
     }
     public T get(int index) {
         if (index < 0 || index >= size) {
             return null;
         }
-        if (index * 2 <= size) {
-            Node current = sentinel.next;
-            while (index-- > 0) {
-                current = current.next;
-            }
-            return current.item;
-        } else {
-            int reverseIndex = size - index - 1;
-            Node current = sentinel.prev;
-            while (reverseIndex-- > 0) {
-                current = current.prev;
-            }
-            return current.item;
+        Node currentNode = sentinel.next;
+        while (index > 0) {
+            currentNode = currentNode.next;
+            index--;
         }
+        return currentNode.item;
     }
     @Override
     public Iterator<T> iterator() {
-        return new LinkedListDequeIterator();
-    }
-    private class LinkedListDequeIterator implements Iterator<T> {
-        private Node current = sentinel.next;
-        @Override
-        public boolean hasNext() {
-            return current != sentinel;
-        }
-        @Override
-        public T next() {
-            if (!hasNext()) {
-                throw new java.util.NoSuchElementException();
-            }
-            T result = current.item;
-            current = current.next;
-            return result;
-        }
+        return new LinkedListIterator();
     }
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof LinkedListDeque)) {
+        if (o == this) {
+            return true;
+        }
+        if (!(o instanceof LinkedListDeque<?>)) { // `instanceof` 不能用 `<?>`
             return false;
         }
-        LinkedListDeque<?> other = (LinkedListDeque<?>) o;
-        if (size != other.size()) {
+        LinkedListDeque<?> other = (LinkedListDeque<?>) o; // 显式转换
+        if (this.size != other.size) {
             return false;
         }
-        Iterator<T> thisIterator = iterator();
-        Iterator<?> otherIterator = other.iterator();
-        while (thisIterator.hasNext() && otherIterator.hasNext()) {
-            if (!thisIterator.next().equals(otherIterator.next())) {
+
+        Iterator<T> thisIter = this.iterator();
+        Iterator<?> otherIter = other.iterator(); // 不能用<T>，因为 `other` 可能是 `LinkedListDeque<U>`
+
+        while (thisIter.hasNext() && otherIter.hasNext()) {
+            if (!Objects.equals(thisIter.next(), otherIter.next())) { // 逐个比较
                 return false;
             }
         }
-        return !thisIterator.hasNext() && !otherIterator.hasNext();
+        return !thisIter.hasNext() && !otherIter.hasNext(); // 确保长度匹配
     }
     public T getRecursive(int index) {
         if (index < 0 || index >= size) {
             return null;
         }
-        return getRecursiveRecursive(sentinel.next, index);
+        return getRecursive(sentinel.next, index);
     }
-    private T getRecursiveRecursive(Node current, int index) {
+    private T getRecursive(Node currentNode, int index) {
         if (index == 0) {
-            return current.item;
+            return currentNode.item;
         }
-        return getRecursiveRecursive(current.next, index - 1);
+        return getRecursive(currentNode.next, index - 1);
     }
 }
