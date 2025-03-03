@@ -17,7 +17,7 @@ public class ArrayDeque<T> implements Iterable<T> {
         items = (T[]) new Object[INITIAL_CAPACITY];
         size = 0;
         front = 0;
-        rear = 1;
+        rear = 0;
     }
 
     public void addFirst(T item) {
