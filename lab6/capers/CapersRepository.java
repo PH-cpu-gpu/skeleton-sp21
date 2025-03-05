@@ -63,7 +63,7 @@ public class CapersRepository {
             newText = prevText + System.lineSeparator() + text;
         }
         writeContents(STORY_FILE, newText);
-        System.out.println(newText);
+        System.out.print(newText);
     }
 
     /**
@@ -72,17 +72,9 @@ public class CapersRepository {
      * Also prints out the dog's information using toString().
      */
     public static void makeDog(String name, String breed, int age) {
-        File dogFile = Utils.join(DOGS_FOLDER, name);
-        if (!dogFile.exists()) {
-            try {
-                dogFile.createNewFile();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
         Dog newDog = new Dog(name, breed, age);
         newDog.saveDog();
-        System.out.println(newDog.toString());
+        System.out.print(newDog.toString());
     }
 
     /**
