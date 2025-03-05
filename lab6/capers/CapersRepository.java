@@ -21,8 +21,8 @@ public class CapersRepository {
 
     /** Main metadata folder. */
     static final File CAPERS_FOLDER = Utils.join(CWD,".capers");
-    static final File DOGS_FOLDER = Utils.join(CAPERS_FOLDER, ".dogs");
-    static final File STORY_FILE = Utils.join(CAPERS_FOLDER, ".story");
+    static final File DOGS_FOLDER = Utils.join(CAPERS_FOLDER, "dogs");
+    static final File STORY_FILE = Utils.join(CAPERS_FOLDER, "story");
 
     /**
      * Does required filesystem operations to allow for persistence.
